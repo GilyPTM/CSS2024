@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+      asperiores, magnam dolore quam vero iusto, quisquam magni excepturi atque
+      incidunt facere delectus dolor distinctio ratione eum numquam, perferendis
+      dolores ex!
+    </p>
+    <p>
+      Eos quae commodi saepe pariatur animi eaque enim numquam voluptas at
+      aliquam. Saepe adipisci deserunt voluptatem consequuntur dolore dolor aut
+      porro, excepturi non distinctio vero consequatur, placeat, ipsum sapiente
+      accusamus!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptatem
+      blanditiis ratione, fugit inventore id a omnis deserunt veritatis beatae
+      dignissimos veniam mollitia quam maiores illum sunt, vel error molestiae?
+    </p>
+
+    <button id="btn">Schimba CSS</button>
+  </body>
+  <script>
+    let btn = document.getElementById("btn");
+    btn.addEventListener("click", function () {
+      let myParagraphs = document.querySelectorAll("body>p");
+      //   let myParagraphs2 = document.getElementsByTagName(p);
+      alert(myParagraphs.length);
+      for (let i = 0; i < myParagraphs; i++) {
+        myParagraphs[i].style.color = "red";
+        myParagraphs[i].style.fontSize = "18px";
+      }
+      myParagraphs.forEach(function (value) {
+        value.style.color = "red";
+        value.style.fontSize = "18px";
+      });
+    });
+  </script>
+</html>
