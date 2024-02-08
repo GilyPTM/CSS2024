@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 640px;
+        margin: 25px;
+        background-color: crimson;
+      }
+      div:not(:has(img)) {
+        border: 3px groove cornflowerblue;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Div cu text si imagine</h1>
+      <img src="https://placehold.co/600x400/png" alt="" />
+    </div>
+    <div>
+      <h1>Div cu text fara imagine</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+        doloremque animi, reprehenderit delectus molestiae dignissimos itaque
+        expedita vitae repudiandae pariatur nam soluta, sapiente dolorum
+        consequatur ex? Iusto architecto sunt quos!
+      </p>
+    </div>
+    <div>
+      <img src="https://placehold.co/600x400/png" alt="" />
+    </div>
+  </body>
+</html>
