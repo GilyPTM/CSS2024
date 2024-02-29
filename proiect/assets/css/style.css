@@ -559,6 +559,10 @@ section {
   }
 }
 
+.testimonial-item {
+  padding-left: 7%;
+}
+
 /* Dark Mode code */
 .theme-switch-wrapper {
   display: flex;
@@ -628,7 +632,7 @@ input:checked + .slider:before {
 [data-theme="dark"] {
   --primary-color: #9a97f3;
   --secondary-color: #818cab;
-  --font-color: #e1e1ff;
+  --font-color: #fff;
   --bg-color: #161625;
   --heading-color: #818cab;
 }
