@@ -151,7 +151,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: var(--bg-color);
+  background: #fff;
   transition: all 0.5s;
   z-index: 997;
   height: 86px;
@@ -170,7 +170,7 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 #header .logo a {
-  color: var(--font-color);
+  color: #222222;
 }
 #header .logo a span {
   color: #9210ea;
@@ -247,7 +247,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: var(--font-color);
+  color: #9210ea;
 }
 .navbar .dropdown ul {
   display: block;
@@ -522,7 +522,7 @@ section {
 }
 
 .section-bg {
-  background-color: var(--bg-color);
+  background-color: #f6f9fe;
 }
 
 .section-title {
