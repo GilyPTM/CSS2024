@@ -307,9 +307,11 @@ if (currentTheme) {
 
 function switchTheme(e) {
   if (e.target.checked) {
+    document.getElementById("logo").src = "assets/img/logo.png";
     document.documentElement.setAttribute("data-theme", "dark");
     localStorage.setItem("theme", "dark");
   } else {
+    document.getElementById("logo").src = "assets/img/logo1.png";
     document.documentElement.setAttribute("data-theme", "light");
     localStorage.setItem("theme", "light");
   }
